@@ -1,6 +1,6 @@
 # TugasPCD_1
 
-TUGAS I
+#TUGAS I
 Pengolahan Citra Digital Kelas PCD-D
 Untuk Memenuhi Tugas Matakuliah
 Pengolahan Citra Digital
