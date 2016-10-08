@@ -1,0 +1,70 @@
+clear all;
+close all;
+clc
+
+disp('*****************************************************************');
+disp('**                   OPERASI ARITMATIKA                        **');
+disp('*****************************************************************');
+disp(' ');
+
+%Input file citra
+G = input('Masukkan nama gambar dengan format (''nama.format'')  : ');
+
+image=imread(G); %Membaca file citra
+imageG=rgb2gray(image);%Konvert citra ke dalam citra keabuan
+
+%Membaca array citra kedalam format double
+DImage=double(imageG);
+
+%Menentukan ukuran citra dalam matrik
+[Jbaris Jkolom]=size(DImage);
+
+
+%input titik (r1,s1) dan (r2,s2) untuk transformasi
+disp(' ');
+r1=input('   masukkan nilai r1 : ' );
+s1=input('   masukkan nilai s1 : ' );
+r2=input('   masukkan nilai r2 : ' );
+s2=input('   masukkan nilai s1 : ' );
+disp(' ');
+    
+L=(2)^8; %citra gray 8 bit
+Lmaks=(L-1);
+    
+%iterasi sesuai ukuran baris dan kolom citra
+    for I=1:Jbaris
+        for J=1:Jkolom
+            %mendefinisikan citra baru
+            Ibaru=DImage(I,J);
+            
+            %nilai intensitas < r1
+            if(Ibaru<r1)                
+                Ibaru=(round((s1/r1)*Ibaru));
+                
+            %nilai intensitas antara r1 dan r2
+            elseif (Ibaru<=r2)          
+                Ibaru=(s1+round((Ibaru-r1)*(s2-s1)/(r2-r1)));
+            
+            %pada nilai Ibaru >= r2 dan Ibaru < Lmaks    
+            else                        
+                Ibaru=(s2+round((Ibaru-r2)*(Lmaks-s2)/(Lmaks-r2)));
+            end 
+            
+            %mengisi nilai intensitas baru pada citra titik I dan J
+            DImage(I,J)=Ibaru;
+        end
+    end
+    
+    imagecontras=uint8(DImage);
+    
+    %menampilkan citra awal
+        subplot(2,2,1);imshow(imageG);title('Citra Awal');
+        subplot(2,2,2);imhist(imageG);title('Histogram Citra Awal');
+    %menampilkan citra baru hasil contrast 
+        subplot(2,2,3);imshow(imagecontras);title('Citra hasil contrast stretching');
+        subplot(2,2,4);imhist(imagecontras);title('Histogram Citra hasil contrast stretching');
+        
+disp('-----------------------------------------------------------------');
+disp('--------------------------by Kelompok 7--------------------------');
+disp('-----------------------------------------------------------------');
+    
