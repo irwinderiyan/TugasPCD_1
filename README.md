@@ -1,4 +1,4 @@
-# TugasPCD_1
+
 
 #TUGAS I
 Pengolahan Citra Digital Kelas PCD-D
@@ -6,13 +6,13 @@ Untuk Memenuhi Tugas Matakuliah
 Pengolahan Citra Digital
 Yang dibina oleh Ibu Yuita Arum Sari, S.Kom, M.Kom
 
-Disusun Oleh :
+#Disusun Oleh :
 
 Winda Estu Nurjanah			    135150218113007
 Irwin Deriyan Ferdiansyah		145150201111007
 Dwi Febry Indarwati			    145150201111124
 
-Tugas 1 – Program
+#Tugas 1 – Program
 1.	Foto wefie bersama anggota kelompok
 2.	Mengubah citra berwarna dari no.1 ke dalam citra keabuan dengan mengambil nilai rata-rata dari nilai R, G dan B.
 3.	Lakukan operasi aritmetika citra keabuan pada no.2 dengan :
@@ -25,14 +25,14 @@ d) Membagi citra keabuan tersebut dengan x.
 5.	Jika nilai x diganti dengan yang lebih rendah dari 30 dan lebih besar dari 30 apa yang terjadi pada citra gambar keabuan? Sertakan histogramnya!
 
 
-Tugas 2 – Program
+#Tugas 2 – Program
 1.	Gunakan citra wefie keabuan pada tugas 1!
 2.	Lakukan contrast streching! Nilai parameter untuk melakukan contrast streching kalian tentukan sendiri.
 3.	Buat 3 citra output yang berbeda dari hasil contrast streching yang telah kalian buat!
 Buat histogram dari ketiga citra tersebut, dan apa yang bisa kalian simpulkan?
 
 
-Tugas 3
+#Tugas 3
  
 
 Ukuran gambar 8x8
