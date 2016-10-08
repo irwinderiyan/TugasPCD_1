@@ -38,5 +38,5 @@ Buat histogram dari ketiga citra tersebut, dan apa yang bisa kalian simpulkan?
 Ukuran gambar 8x8
 Skala keabuan = [0,16]
 Tanpa menggunakan program :
-	Buat histogram equalization dari citra ukuran 8x8 tersebut!
-	Sertakan perhitungan manualnya!
+1. 	Buat histogram equalization dari citra ukuran 8x8 tersebut!
+2. 	Sertakan perhitungan manualnya!
