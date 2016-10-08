@@ -1,7 +1,7 @@
 
 
 #TUGAS I
-Pengolahan Citra Digital Kelas PCD-D \n
+Pengolahan Citra Digital Kelas PCD-D /n
 Untuk Memenuhi Tugas Matakuliah
 Pengolahan Citra Digital
 Yang dibina oleh Ibu Yuita Arum Sari, S.Kom, M.Kom
