@@ -8,9 +8,9 @@ Yang dibina oleh Ibu Yuita Arum Sari, S.Kom, M.Kom.
 
 #Disusun Oleh :
 
--Winda Estu Nurjanah			    135150218113007
--Irwin Deriyan Ferdiansyah		145150201111007
--Dwi Febry Indarwati			    145150201111124
+1. Winda Estu Nurjanah			    135150218113007
+2. Irwin Deriyan Ferdiansyah		145150201111007
+3. Dwi Febry Indarwati			    145150201111124
 
 #Tugas 1 – Program
 1.	Foto wefie bersama anggota kelompok
